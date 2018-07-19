@@ -2,8 +2,10 @@ package com.in28minutes.springboot.basics.springbootin10steps;
 
 import java.util.HashMap;
 import java.util.Map;
-
-public class Ordical {
+/**
+ * Problem Statement: To take number as a input and return the same number with ordinal append at the end of the number. E.g. 1st, 2nd, 3rd, 11th, 12th 121st, 125th
+ */
+public class Ordinal {
 
     public String getOrdinal(int number) {
         int lastDigit;
@@ -24,6 +26,6 @@ public class Ordical {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Ordical().getOrdinal(122));
+        System.out.println(new Ordinal().getOrdinal(122));
     }
 }
